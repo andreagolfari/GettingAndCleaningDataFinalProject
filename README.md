@@ -1,6 +1,10 @@
 ---
+<<<<<<< HEAD:ReadMe.md
 title: "ReadMe.md"
 author: "Andrea Golfari"
+=======
+title: "README.md"
+>>>>>>> 36e1e135ff30292e1fb3bc170041e08ecb8e908a:README.md
 output: html_document
 ---
 
@@ -24,6 +28,7 @@ More specific information on the experiment is available from this webpage:
 5. A new, indipendent tidy dataset with the mean value for each subject and activity is created
 
 If desired, the new tidy dataset can be exported to a .txt file.
+<<<<<<< HEAD:ReadMe.md
 
 ### Detailed description of ```run_analysis.R```
 
@@ -133,3 +138,5 @@ Saving the final dataset to text file, if desired
 
 ``` # write.table(tidy_means, "tidy_means.txt", row.names = FALSE)```
 
+=======
+>>>>>>> 36e1e135ff30292e1fb3bc170041e08ecb8e908a:README.md
