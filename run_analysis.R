@@ -74,7 +74,7 @@ tidy_means <- tidy_data %>% group_by(subject, activity) %>%
 tidy_means
 
 # Saving the final dataset, if desired 
-# write.table(tidy_means, "tidy_means.txt", row.names = FALSE)
+write.table(tidy_means, "tidy_means.txt", row.names = FALSE)
 
 
 
